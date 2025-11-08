@@ -1,6 +1,12 @@
 # CareLine
 **Description**: 
+
 Hotline Operator Assistant designed to support hoeline staff in providing accurate and timely response. CareLine assists the operator by retreiving relevant information from the incident log, service knowledge, supporting the operator in responding the whistleblower's follow-up questions and presenting visualization of case statistics to hotline manager.
+
+## Visit CareLine
+
+[Link Text](https://careline-agent-7e9otkdw7etszahk6vqznm.streamlit.app/ "CareLine Agent")
+
 ## 📄 Documentation"
 **Hotline Operator Assistant** is an AI agent who assist operator during the time of whistleblower's cases reporting.
 The Operator can ask the Agent for information and statistic of the cases as follows:
