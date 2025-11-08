@@ -5,7 +5,7 @@ Hotline Operator Assistant designed to support hoeline staff in providing accura
 
 ## Visit CareLine
 
-[CareLine Agent](https://careline-agent-7e9otkdw7etszahk6vqznm.streamlit.app/ "CareLine Agent")
+[📞 CareLine Agent](https://careline-agent-7e9otkdw7etszahk6vqznm.streamlit.app/ "CareLine Agent")
 
 ## 📄 Documentation"
 **Hotline Operator Assistant** is an AI agent who assist operator during the time of whistleblower's cases reporting.
