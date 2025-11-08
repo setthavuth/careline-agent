@@ -48,7 +48,7 @@ client = OpenAI(
     base_url = st.secrets["TYPHOON_BASE_URL"]
 )
 
-df = load_data("../data/hotline_logv3.xlsx")
+df = load_data("data/hotline_logv3.xlsx")
 
 schema = f"""
 CallId: Unique name of report
