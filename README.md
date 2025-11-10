@@ -24,5 +24,5 @@ The Agent will retrieve the information of the case and list the detail of the c
 
 ![image](asset/prepare-chart-report.png)
 
-## ⚠️ Remark"
+## ⚠️ Remark
 The Agent solely relies on the **hotline log**. You may get a made up information if you ask anything that is not in database or hotline log.
