@@ -9,7 +9,7 @@ Hotline Operator Assistant designed to support hoeline staff in providing accura
 
 ![image](asset/careline-image.png)
 
-## 📄 Documentation"
+## 📄 Documentation
 **Hotline Operator Assistant** is an AI agent who assist operator during the time of whistleblower's cases reporting.
 The Operator can ask the Agent for information and statistic of the cases. The Agent provide the information of specific cases upon the Operator request as below:
 
