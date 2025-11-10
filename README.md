@@ -20,10 +20,9 @@ The Agent will retrieve the information of the case and list the detail of the c
 
 ![image](asset/ask-case-info.png)
 
-2. 📊 **Statistic of the cases**: the Operator and stakeholder can ask the Agent to provide statistic and insight of reporting via hotline.
+2. 📊 **Statistic of the cases**: the Operator and stakeholder can ask the Agent to provide statistic and insight of reporting via hotline. The Agent will provide you a visualization of the cases reported.
 
 ![image](asset/prepare-chart-report.png)
 
-The Agent will provide you a visualization of the cases reported.
 ## ⚠️ Remark"
 The Agent solely relies on the **hotline log**. You may get a made up information if you ask anything that is not in database or hotline log.
