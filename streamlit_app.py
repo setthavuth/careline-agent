@@ -159,6 +159,8 @@ def chart_generator(user_instruction):
 
 def get_response():
 
+    final_response = ""
+
     messages = [{"role": m["role"], "content": m["content"]} for m in st.session_state.messages if m["role"] != "chart"]
 
     response = client.chat.completions.create(
@@ -174,11 +176,24 @@ def get_response():
             function_name = tool_call.function.name
             arguments = tool_call.function.arguments
 
+            if function_name == "get_info":
+                kwargs = json.loads(arguments)
+                result = get_info(**kwargs)
+
+                st.session_state.messages.append({"role": "tool", "content": str(result)})
+
+                final_response = client.chat.completions.create(
+                    model = st.secrets["TYPHOON_MODEL"],
+                    messages = [{"role": m["role"], "content": m["content"]} for m in st.session_state.messages if m["role"] != "chart"]
+                )
+
+                final_response = final_response.choices[0].message.content
+
             if function_name == "chart_generator":
                 kwargs = json.loads(arguments)
-                result = chart_generator(**kwargs)
+                final_response = chart_generator(**kwargs)
 
-            return result
+            return final_response
 
     return response.choices[0].message.content
 
